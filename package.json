@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "nuxt",
-    "build": "nvm use 14 && nuxt build",
+    "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
     "test": "jest",
@@ -46,5 +46,8 @@
     "jest": "^26.5.0",
     "prettier": "^2.1.2",
     "vue-jest": "^3.0.4"
+  },
+  "engines": {
+    "node": "14.0.0"
   }
 }
